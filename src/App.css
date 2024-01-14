@@ -1,38 +1,70 @@
+/* App.css */
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-title {
+  font-size: 2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-body {
+  margin: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-connect {
+  text-align: center;
+}
+
+.avatar-container {
+  margin: 20px 0;
+}
+
+.avatar {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+}
+
+.App-connect h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.App-connect p {
+  color: #555;
+}
+
+.App-connect ul {
+  list-style: none;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-connect li {
+  margin: 10px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-connect a {
+  text-decoration: none;
 }
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+  align-items: center;
+  scale: 0.5;
+}
+
